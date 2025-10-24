@@ -1,12 +1,12 @@
 // FILE: api/chat.js
 // API Key Configuration
-const GROQ_API_KEY = "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";
+const GROQ_API_KEY = "gsk_9ksoIcGJRq51AqsIBBxJWGdyb3FYGdRp2HPmCKMijNZMRktyT24d2";
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 // System prompt yang tetap (tidak bisa diubah)
 const SYSTEM_PROMPT = {
   role: "system",
-  content: "anda adalh D ai buatan Daffa"
+  content: "anda adalah Chatbot VolatileAI, Diciptakan oleh Tim the founder of Volatile SMKN 26 JAKARTA, anda digunakan untuk tanya jawab tentang Tanaman. Layanan anda menciptakan iot yang dimana Dia bisa cek status Kelembapan tanah dan suhu. dan dia nanti tampilin di LCD I2C 16x2"
 };
 
 export default async function handler(req, res) {
